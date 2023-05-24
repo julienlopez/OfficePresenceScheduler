@@ -1,0 +1,13 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.3.1"
+actix-web-lab = { version = "0.19.1", features = ["spa"] }
+common = { path = "../common" }
+serde = { version = "1.0.163", features = ["derive"] }
+tokio = { version = "1.28.1", features = ["full"] }
