@@ -2,7 +2,6 @@ use actix_web::web::Json;
 use actix_web::{get, web, App, HttpRequest, HttpServer};
 use actix_web_lab::web::spa;
 use serde::Serialize;
-use tokio;
 
 #[derive(Serialize)]
 struct Response {
